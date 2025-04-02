@@ -8,7 +8,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class BankAccountTest {
     private BankAccount account;
-
     @BeforeEach
     void setUp() {
         account = new BankAccount(100.00); // Initial balance: 100
