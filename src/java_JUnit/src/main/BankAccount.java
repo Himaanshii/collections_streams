@@ -1,9 +1,9 @@
-package org.example;
+package java_junit.src.main;
 
-public class bankAccount {
+public class BankAccount {
     private double balance;
 
-    public bankAccount(double initialBalance) {
+    public BankAccount(double initialBalance) {
         this.balance = initialBalance;
     }
 
